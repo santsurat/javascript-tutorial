@@ -1,0 +1,47 @@
+/* Challenges with 'let':
+
+Scope Challenge: Define a variable using 'let' inside a block and try to access it outside the block. Observe the results.
+
+Re-declaration Challenge: Attempt to re-declare a variable using 'let' within the same block or function. Observe how it behaves.
+
+Hoisting Challenge: Declare a variable using 'let' before it is defined in the code. Observe the behavior compared to variables declared with 'var'.
+
+Block-level Scope Challenge: Create nested blocks and declare a variable using 'let' at different levels. Observe the scope of the variables in each case.
+
+Loop Challenge: Use 'let' in a 'for' loop and try to access the loop variable outside the loop.
+
+Challenges with 'var':
+
+Scope Challenge: Define a variable using 'var' inside a block and try to access it outside the block. Observe the results.
+
+Hoisting Challenge: Declare a variable using 'var' after it has been used in the code. Observe the behavior compared to variables declared with 'let'.
+
+Function Scope Challenge: Create a function and declare a variable using 'var' inside it. Try accessing the variable outside the function.
+
+Global Scope Challenge: Declare a variable using 'var' without any block or function and check its scope.
+
+Loop Challenge: Use 'var' in a 'for' loop and try to access the loop variable outside the loop.
+
+Challenges with 'const':
+
+Assignment Challenge: Declare a variable using 'const' and try to reassign a new value to it. Observe the results.
+
+Object Mutability Challenge: Create an object using 'const' and try to modify its properties. Check if it's allowed.
+
+Array Mutability Challenge: Create an array using 'const' and try to modify its elements. Check if it's allowed.
+
+Block Scope Challenge: Declare a variable using 'const' inside a block and try to access it outside the block. Observe the results.
+
+Function Scope Challenge: Create a function and declare a variable using 'const' inside it. Try accessing the variable outside the function.
+
+Combined Challenges:
+
+Scope and Re-declaration Challenge: Create a block, declare a variable with 'let', then try to re-declare the same variable with 'var' or 'const' within the same block.
+
+Global Scope Challenge: Declare a variable with 'let' and another with 'const' in the global scope. Try accessing both variables from a function.
+
+Temporal Dead Zone Challenge: Use 'let' and 'const' variables inside a block and try to access them before their declaration.
+
+Array and Object Mutation Challenge: Create an array of objects using 'const' and try to modify both the array and object properties.
+
+Function Scope Challenge: Create a function with 'var' and 'let' variables with the same name. Observe their behavior and scope within the function.*/

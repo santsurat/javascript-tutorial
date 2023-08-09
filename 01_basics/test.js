@@ -394,12 +394,48 @@
 
 // IIFE -> immediately invoked function expression
 
-(function myName () {
-    console.log('Ram');
-} )();
+// (function myName () {
+//     console.log('Ram');
+// } )();
 
 
-( () => {
-    var a = 'a';
-    console.log(a);
-}) ();
+// ( () => {
+//     var a = 'a';
+//     console.log(a);
+// }) ();
+
+
+// const todayDate = new Date();
+
+// const afterTenDay = new Date(2023 , 8 , 18 );
+
+
+// console.log(todayDate.toLocaleDateString());
+// console.log(afterTenDay.toLocaleDateString());
+
+
+
+
+// if(todayDate > afterTenDay){
+//   console.log("no");
+// }else{
+//   console.log('yes');
+// }
+
+// const todayTime = new Date();
+
+// const afterfewMinTime = new Date(0, 0 , 0 , 15 , 1 );
+
+// console.log(todayTime)
+
+// console.log(todayTime.toLocaleTimeString());
+// console.log(afterfewMinTime.toLocaleTimeString());
+
+
+
+
+// if(todayTime.toLocaleTimeString() > afterfewMinTime.toLocaleTimeString()){
+//   console.log("no");
+// }else{
+//   console.log('yes');
+// }

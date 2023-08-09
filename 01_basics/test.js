@@ -382,12 +382,24 @@
 // console.log(myObj);
 
 
-function TakeTwoNumber(number1, number2) {
-  // result = number1+number2
-  // console.log(result);
-  // console.log('hello')
-  return number1 + number2;
-}
+// function TakeTwoNumber(number1, number2) {
+//   // result = number1+number2
+//   // console.log(result);
+//   // console.log('hello')
+//   return number1 + number2;
+// }
 
-const newResult = TakeTwoNumber(5, 8);
-console.log(newResult);
+// const newResult = TakeTwoNumber(5, 8);
+// console.log(newResult);
+
+// IIFE -> immediately invoked function expression
+
+(function myName () {
+    console.log('Ram');
+} )();
+
+
+( () => {
+    var a = 'a';
+    console.log(a);
+}) ();
